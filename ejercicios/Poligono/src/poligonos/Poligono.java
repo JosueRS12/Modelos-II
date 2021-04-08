@@ -1,7 +1,8 @@
+
 package poligonos;
 
-public class Poligono {
-    private String tipo;
+public abstract class Poligono {
+   private String tipo;
     
     public Poligono(String tipo){
         this.tipo = tipo;       
@@ -10,5 +11,7 @@ public class Poligono {
     public String getPoligono(){
         return this.tipo;
     }
-
+    
+    public abstract void getInfo();
+    public abstract double getArea();
 }
