@@ -30,14 +30,6 @@ module ColorCarta where
 -- <pre>
     --Negro
 -- </pre>
---
-
-type Valor = Int
-type Pinta = String
-type Color = String
-type Carta = (Valor, Pinta)
-type Cartas = []
-
 
 buscar:: String -> String
 buscar pint 
