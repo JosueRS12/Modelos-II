@@ -1,0 +1,32 @@
+ifrado del Cesar
+
+Dado un mensaje se debe cifrar el mensaje aplicando un desplazamiento en el
+alfabeto de cada caracter según se desee, el mensaje cifrado se debe poder
+descifrar aplicando el algorimo de forma inversa.
+
+La operación deseada será indicada por el primer carcater de la entrada:
+- c para cifrar
+  - d para descifrar
+
+El paso de desplazamiento viene indicado por un valor númerico entre 2 y 9 que
+sigue a la indicación de la operación
+
+
+__Ejemplo de Entrada:__
+
+<pre>
+c 2 "hola alejandro"
+</pre>
+
+<pre>
+d 2 "jqnc cnglcoftq"
+</pre>
+
+__Ejemplo de Salida:__
+<pre>
+"jqnc cnglcoftq"
+</pre>
+
+<pre>
+"hola alejandro"
+</pre>
