@@ -1,3 +1,5 @@
+# (Cuatro,Picas) (As,diamantes) (Dos,Treboles)
+# (Siete,Picas) (Ocho,diamantes) (Nueve,Treboles)
 module Main where
 import Game
 

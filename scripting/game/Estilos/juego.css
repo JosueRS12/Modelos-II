@@ -1,0 +1,35 @@
+body{
+  background-image: url('../Imagenes/Fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-header h1{
+  color: white;
+  text-align: center;
+}
+
+.canvas{
+  display: block;
+  background-image: url(../Imagenes/MarcoJuego.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -170px;
+  margin-inline-start: 15%;
+  top: 20px;
+  height: 800px;
+  width: 1000px;
+}
+
+#back-image, #laserBlue, #laserGreen, #mago{
+  display: none;
+} 
+
+
+footer{
+  background: #01041d;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  align-self: flex-end;
+}
